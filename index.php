@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5ccb4e6d08.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min (4).css">
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
