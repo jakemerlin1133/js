@@ -9,24 +9,33 @@
     <title>Document</title>
 </head>
 <body>
-    
 <div class="container mt-4">
     <h1 class="display-4 text-center"><i class="fas fa-book-open text-primary"></i> My<span class="text-primary">Book</span>List</h1>
 
     <form id="book-form">
         <div class="form-group">
-            <label for="title">Title</label>
-            <input type="text" id="title" class="form-control">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" class="form-control">
         </div>
 
         <div class="form-group">
-            <label for="author">Author</label>
-            <input type="text" id="author" class="form-control">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" class="form-control">
         </div>
 
         <div class="form-group">
-            <label for="isbn">ISBN#</label>
-            <input type="text" id="isbn" class="form-control">
+            <label for="middlename">Middle Name</label>
+            <input type="text" id="middlename" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="School">School</label>
+            <input type="text" id="School" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="Block">Block</label>
+            <input type="text" id="Block" class="form-control">
         </div>
 
         <input type="submit" value="Add Book" class="mt-4 form-control btn btn-primary btn-block">
@@ -35,18 +44,21 @@
     <table class="table table-striped mt-5">
         <thead>
             <tr>
-                <th>Title</th>
-                <th>Author</th>
-                <th>ISBN#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Middle Name</th>
+                <th>School</th>
+                <th>Block</th>
                 <th></th>
             </tr>
         </thead>
 
-        <tbody id="book-list"></tbody>
+        <tbody id="student-list"></tbody>
  
     </table>
 </div>
 
-<script src="index.js"></script>
+<script src="js.js"></script>
+
 </body>
 </html>
