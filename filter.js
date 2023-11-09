@@ -11,9 +11,6 @@ filterInput.addEventListener('keyup', () =>{
             li[i].style.display = "block";   
         }else{
             li[i].style.display = "none";
-
         }
     }
-
-
 });
