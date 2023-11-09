@@ -13,10 +13,13 @@
         <input type="text" id="filterInput" placeholder="search name...">
         <ul class="list-unstyled" id="students-name">
             <li class="collection-header mt-4">
-                <h5>A</h5>
+                <h5 class="header">A</h5>
             </li>
             <li class="collections-list">
-                <a href="#">Abe</a>
+                    <a href="#">Abe</a>
+            </li>
+            <li class="collections-list">
+                    <a href="#">Aba</a>
             </li>
             <li class="collections-list">
                 <a href="#">Allan</a>
@@ -29,7 +32,7 @@
             </li>
         
             <li class="collection-header mt-4">
-                <h5>B</h5>
+                <h5 class="header">B</h5>
             </li>
             <li class="collections-list">
                 <a href="#">Barney</a>
@@ -42,7 +45,7 @@
             </li>
 
             <li class="collection-header mt-4">
-                <h5>C</h5>
+                <h5 class="header">C</h5>
             </li>
             <li class="collections-list">
                 <a href="#">Carrie</a>

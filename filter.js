@@ -1,14 +1,16 @@
 const filterInput = document.querySelector('#filterInput');
 
 filterInput.addEventListener('keyup', () =>{
-   const filterValue = document.querySelector('#filterInput').value.toUpperCase();
-    const student_name = document.querySelector('#students-name');
-    const li = student_name.querySelectorAll('.collections-list');
+    const inputValue = filterInput.value.toUpperCase();
+
+    const ul = document.querySelector('#students-name');
+    const li = ul.querySelectorAll('.collections-list');
 
     for(let i = 0; i < li.length; i++){
-        const a = li[i].getElementsByTagName('a')[0];
-        if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
-            li[i].style.display = "block";   
+        const a = li[i].querySelector('a');
+
+        if(a.innerHTML.toUpperCase().indexOf(inputValue) > -1){
+            li[i].style.display = "";
         }else{
             li[i].style.display = "none";
         }
